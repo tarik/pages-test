@@ -1,0 +1,20 @@
+{
+  "name": "pages-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "new": "elucidate new",
+    "check": "elucidate check"
+  },
+  "dependencies": {
+    "astro": "^7.4.10",
+    "astro-elucidate": "file:astro-elucidate-0.0.0.tgz"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^6.0.3"
+  }
+}
